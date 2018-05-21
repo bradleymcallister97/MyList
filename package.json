@@ -1,0 +1,23 @@
+{
+    "name": "MyList",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server",
+        "test": "truffle test",
+        "dev-test": "truffle test --network ganache",
+        "dev-migrate": "truffle migrate --network ganache",
+        "remigrate": "truffle migreate --compile-all --reset --network mynet",
+        "dev-remigrate": "truffle migrate --compile-all --reset --network ganache",
+        "console": "truffle console --network ganache"
+    },
+    "author": "Bradley McAllister",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    }
+}
